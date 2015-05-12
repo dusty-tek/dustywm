@@ -17,14 +17,14 @@ static const Bool statusmarkup      = True;     /* True means use pango markup i
 static const Bool focusonwheelscroll = False;
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "I", "II", "III", "IV", "V", "VI" };
 
 static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
-	{ "emacs@turing", NULL,   NULL,       1 << 2,       False,       -1 },
+	{ "Deluge",   NULL,       NULL,       1 << 2,       False,       -1 },
 	{ "Clementine", NULL,     NULL,       1 << 3,       False,       -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       False,       -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 4,       False,       -1 },
 };
 
 /* layout(s) */
